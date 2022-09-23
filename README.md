@@ -1,8 +1,8 @@
 <p align="center">
   <samp>
-    <a href="#">me</a> -
-    <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/EEFBCC3AC529CFD1943DA75CBDD57BE99D555965">pgp</a> -
-    <a href="#">blog</a> -
+    <a href="https://website-ruby-ten-20.vercel.app/">me</a> -
+    <a href="https://website-ruby-ten-20.vercel.app/pgp">pgp</a> -
+    <a href="https://website-ruby-ten-20.vercel.app/posts">blog</a> -
     discord: <b>b0th#6474</b>
   </samp>
 </p>
