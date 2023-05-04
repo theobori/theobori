@@ -1,6 +1,9 @@
 <p align="center">
   <samp>
-    <a href="https://theobori.vercel.app">--------------~ me ~--------------</a>
+    <a href="https://theobori.vercel.app"> me</a>
+    <br>
+    <br>
+    ----------------------------------
   </samp>
   <br>
  
