@@ -15,8 +15,6 @@
   ------~ Current activities ~------
   </samp>
   <br>
-  <br>
-  <br>
   
   <samp>
    tinywad
