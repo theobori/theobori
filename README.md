@@ -19,8 +19,6 @@
   <samp>
    tinywad
     <br>
-    NeuVector multi-cluster
-    <br>
     Terraform provider as a service
     <br>
     maintaining <a href="https://skins.tw">skins.tw</a>
