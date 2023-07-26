@@ -21,7 +21,7 @@
     <br>
     Terraform provider as a service
     <br>
-    maintaining <a href="https://skins.tw">skins.tw</a>
+    maintaining <a href=https://github.com/Teeskins>Teeskins</a> (<a href="https://skins.tw">skins.tw</a>) + <a href="https://theobori.vercel.app">personal website</a>
     <br>
     learning stuff
   </samp>
