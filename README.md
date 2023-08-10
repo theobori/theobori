@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://theobori.vercel.app"> me</a><br>
+    <a href="https://theobori.vercel.app">me</a><br>
     <br>
     <br>
   <samp>
@@ -21,7 +21,7 @@
     <br>
     Terraform provider as a service
     <br>
-    maintaining <a href=https://github.com/Teeskins>Teeskins</a> (<a href="https://skins.tw">skins.tw</a>) + <a href="https://theobori.vercel.app">personal website</a>
+    maintaining <a href=https://github.com/Teeskins>Teeskins</a> (<a href="https://skins.tw">skins.tw</a>)
     <br>
     learning stuff
   </samp>
