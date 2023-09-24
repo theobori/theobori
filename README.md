@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://theobori.vercel.app">me</a><br>
+    <b><samp>theobori</samp></b>
     <br>
     <br>
   <samp>
