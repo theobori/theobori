@@ -21,7 +21,7 @@
     <br>
     Terraform provider as a service
     <br>
-    maintaining <a href=https://github.com/Teeskins>Teeskins</a> (<a href="https://skins.tw">skins.tw</a>)
+    maintaining <a href=https://github.com/Teeskins>Teeskins</a> <a href="https://skins.tw">teedata.net</a> (<a href="https://skins.tw">skins.tw</a> until 2024)
     <br>
     learning stuff
   </samp>
