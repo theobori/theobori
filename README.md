@@ -1,6 +1,6 @@
 <p align="center">
-    <b><samp>theobori</samp></b>
-    <br>
+<!--     <b><samp>theobori</samp></b> -->
+<!--     <br> -->
     <br>
   <samp>
     ------~ Most Used Langages ~------
