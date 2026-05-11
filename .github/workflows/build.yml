@@ -1,0 +1,23 @@
+name: Build And Check
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+  - cron: 0 0 * * *
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: purcell/setup-emacs@master
+        with:
+          version: 30.1
+      - name: Write the README.md file
+        run: |
+          ./readme.el.sh "README.md.template" "README.md"
+          git add README.md
+          git -c user.name="GitHub Action" -c user.email="action@github.com" commit -m "Update the README.md file"
+          git push -f
