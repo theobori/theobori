@@ -36,6 +36,9 @@ MONTH and a DAY."
     (setq content (string-replace "{{email-address}}"
 				  "theobori@disroot.org"
 				  content))
+    (setq content (string-replace "{{current-date}}"
+				  (current-time-string)
+				  content))
 
     (with-temp-file destination
       (insert content))))
