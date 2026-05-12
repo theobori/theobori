@@ -2,10 +2,10 @@
 
 (require 'calendar)
 
-(defun get-string-from-file (filePath)
-  "Returns file content as string."
+(defun get-string-from-file (filepath)
+  "returns file content as string."
   (with-temp-buffer
-    (insert-file-contents filePath)
+    (insert-file-contents filepath)
     (buffer-string)))
 
 (defun get-age-from-birth-date (year month day)
