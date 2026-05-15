@@ -14,18 +14,18 @@ MONTH and a DAY."
   (let* ((current-date (calendar-current-date))
 	 (current-year (nth 2 current-date))
 	 (current-month (nth 0 current-date))
-	 (current-day (nth 1 current-date))
-	 (age (- current-year year)))
+	 (current-day (nth 1 current-date)))
     (when (or
 	   (> year current-year)
 	   (and (= year current-year) (> month current-month))
 	   (and (= year current-year) (= month current-month) (> day current-day)))
       (error "Invalid birth date."))
-    (when (or
-	   (< current-month month)
-	   (and (= current-month month) (< current-day day)))
-      (setq age (1- age)))
-    age))
+    (let ((age (- current-year year)))
+      (when (or
+	     (< current-month month)
+	     (and (= current-month month) (< current-day day)))
+	(setq age (1- age)))
+      age)))
 
 (defun render-then-write-markdown (source destination)
   "Render the SOURCE template and write the result to DESTINATION."
