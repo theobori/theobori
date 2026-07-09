@@ -1,8 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
-set -euo pipefail
-
-emacs \
+exec \
+    emacs \
     -Q \
     --batch \
     --load "readme.el" \
